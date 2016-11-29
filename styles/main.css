@@ -1,0 +1,169 @@
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.rowone{
+	width: 100% ;
+	min-height: 60px;
+	background-color: black;
+	border-bottom-color: yellow;
+	border-style: solid;
+	box-sizing: border-box;
+	margin: 0;
+	font-size: 16px;
+}
+
+.rowtwo{
+	width: 100%;
+	background-color: grey;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0;
+	font-size: 14px;
+	font-style: italic;
+
+}
+
+
+.coworkingimage {
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+header{ 
+	font-family: 'Merriweather', Georgia, serif;
+
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.nav1{
+	color: yellow;
+}
+
+
+.nav2{
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+	/*float: right;*/
+
+}
+
+.nav3{
+	color: white;
+	padding: 10px;
+	/*float: right;*/
+}
+
+
+.titleleft {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+
+}
+
+.popbox{
+	width: 285px;
+	height: 200px;
+	font-size: 12px;
+	float: right;
+	background-color: white;
+	opacity: 0.75;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	box-sizing: border-box;
+	margin: 45px;
+	padding-right: 35px;
+	padding-left: 35px;
+
+}
+
+.footer{
+	font-size: 6px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	color: white;
+	overflow: hidden;
+	background-color: black;
+
+}
+
+.underline{
+	color: yellow;
+}
+
+.main-nav {
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.rowtwomargins {
+	margin: 0;
+}
+
+.col-third{
+	width: 33.333%;
+	height: 150px;
+	font-size: 12px;
+	border-style: solid;
+	border-right-color: grey;
+	border-right-width: 1px;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	background-color: white;
+	box-sizing: border-box;
+	float: left;
+	padding-left: 45px;
+	padding-right: 45px;
+
+}
+
+
+.button{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	background-color: grey
+	color: black;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 24px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.button-yellow{
+	background-color: yellow;
+	opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
